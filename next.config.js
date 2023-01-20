@@ -12,6 +12,10 @@ module.exports = withPWA({
     domains: ['i.ibb.co'],
   },
   experimental: {
-    publicDirectory: true,
+    experimental: {
+      externalDir: true,
+    },
+    // Potential new config flag:
+    disableExperimentalFeaturesWarning: true,
   },
 });
