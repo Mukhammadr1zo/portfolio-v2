@@ -3,7 +3,7 @@
 /*                            External Dependencies                           */
 /* -------------------------------------------------------------------------- */
 
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
 // import { arrayRandomItem } from 'codewonders-helpers';
