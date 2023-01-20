@@ -8,13 +8,7 @@ import styled from 'styled-components';
 
 /* -------------------------- Image Dependecy -------------------------- */
 
-import {
-  IconRight,
-  Facebook,
-  Linkedin,
-  Github,
-  Instagram,
-} from '../Icons';
+import { IconRight, Facebook, Linkedin, Github, Instagram } from '../Icons';
 
 /* ---------------------------- Style Dependency ---------------------------- */
 import { SocialMedia } from '../Layout/style';
@@ -35,13 +29,11 @@ const FooterLink = ({ children, goto, ...rest }) => {
   return (
     <>
       <FooterStyle>
-        <Link href={`${goto}`}>
-          <a aria-label={children}>
-            <p {...rest}>
-              {children}
-              <IconRight />
-            </p>
-          </a>
+        <Link href={`${goto}`} aria-label={children}>
+          <p {...rest}>
+            {children}
+            <IconRight />
+          </p>
         </Link>
       </FooterStyle>
       <SocialMedia>

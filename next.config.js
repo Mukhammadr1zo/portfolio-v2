@@ -18,4 +18,8 @@ module.exports = withPWA({
     // Potential new config flag:
     disableExperimentalFeaturesWarning: true,
   },
+  compiler: {
+    // Enables the styled-components SWC transform
+    styledComponents: true,
+  },
 });

@@ -61,22 +61,19 @@ const About = () => {
                 </p>
               </li>
               <li>
-                <Link href="/projects">
-                  <a aria-label="Open Products Page">
-                    Product{' '}
-                    <small>
-                      <Product />
-                    </small>
-                  </a>
+                <Link href="/projects" aria-label="Open Products Page">
+                  Product{' '}
+                  <small>
+                    <Product />
+                  </small>
                 </Link>
-                <Link href="/projects">
-                  <a
-                    aria-label="Open Products Page"
-                    id="cardHover"
-                    className="float-right"
-                  >
-                    View Projects
-                  </a>
+                <Link
+                  href="/projects"
+                  aria-label="Open Products Page"
+                  id="cardHover"
+                  className="float-right"
+                >
+                  View Projects
                 </Link>
                 <p>
                   In spite of not being an atypical product manager, I have

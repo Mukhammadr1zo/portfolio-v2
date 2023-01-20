@@ -6,7 +6,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Link from 'next/link';
-import { arrayRandomItem } from 'codewonders-helpers';
+// import { arrayRandomItem } from 'codewonders-helpers';
 
 /* -------------------------- Internal Dependencies ------------------------- */
 
@@ -14,7 +14,7 @@ import Layout, { PageWrapper } from '../components/Layout';
 import FooterLink from '../components/Footer';
 
 const Home = () => {
-  const [color] = useState(arrayRandomItem(['#37609c', '#34c759', '#5856d6']));
+  // const [color] = useState(arrayRandomItem(['#37609c', '#34c759', '#5856d6']));
   const copyText = () => {
     const textField = document.createElement('textarea');
     textField.innerText = 'baxtiyorovmuhammadrizo@gmail.com';
@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <PageSection color={color}>
+      <PageSection color="#37609c">
         <PageWrapper>
           <article>
             <h1
@@ -43,28 +43,22 @@ const Home = () => {
             <p>
               Working with my hands to make magic happen on the internet. View
               my{' '}
-              <Link href="/projects">
-                <a aria-label="Go to Projects Page">
-                  <button type="button" tabIndex="-1">
-                    Projects
-                  </button>
-                </a>
+              <Link href="/projects" aria-label="Go to Projects Page">
+                <button type="button" tabIndex="-1">
+                  Projects
+                </button>
               </Link>
               ,{' '}
-              <Link href="/resume">
-                <a aria-label="Go to Resume Page">
-                  <button type="button" tabIndex="-1">
-                    Resume
-                  </button>
-                </a>
+              <Link href="/resume" aria-label="Go to Resume Page">
+                <button type="button" tabIndex="-1">
+                  Resume
+                </button>
               </Link>
               ,{' '}
-              <Link href="/contact">
-                <a aria-label="Go to Contact Page">
-                  <button type="button" tabIndex="-1">
-                    Contact Me
-                  </button>
-                </a>
+              <Link href="/contact" aria-label="Go to Contact Page">
+                <button type="button" tabIndex="-1">
+                  Contact Me
+                </button>
               </Link>
               , or send me an email at{' '}
               <button

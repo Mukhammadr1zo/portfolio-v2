@@ -20,7 +20,7 @@ const Navbar = () => {
       <Header>
         <nav className="navbar navbar-expand-lg bg-light navbar-light">
           <div className="container">
-            <Link href="/">
+            <Link href="/" legacyBehavior>
               <a
                 href="#!"
                 className="navbar-brand"
@@ -54,7 +54,7 @@ const Navbar = () => {
 
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item hover__bottom d-block d-md-none">
-                  <Link href="/" activeClassName="is-active">
+                  <Link href="/" activeClassName="is-active" legacyBehavior>
                     <a
                       className="nav-link"
                       id="cardHover"
@@ -68,7 +68,11 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item hover__bottom">
-                  <Link href="/about" activeClassName="is-active">
+                  <Link
+                    href="/about"
+                    activeClassName="is-active"
+                    legacyBehavior
+                  >
                     <a
                       className="nav-link"
                       id="cardHover"
@@ -82,7 +86,11 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item hover__bottom">
-                  <Link href="/projects" activeClassName="is-active">
+                  <Link
+                    href="/projects"
+                    activeClassName="is-active"
+                    legacyBehavior
+                  >
                     <a
                       className="nav-link"
                       id="cardHover"
@@ -96,7 +104,11 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item hover__bottom">
-                  <Link href="/resume" activeClassName="is-active">
+                  <Link
+                    href="/resume"
+                    activeClassName="is-active"
+                    legacyBehavior
+                  >
                     <a
                       className="nav-link"
                       id="cardHover"
@@ -110,7 +122,11 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item hover__bottom">
-                  <Link href="/contact" activeClassName="is-active">
+                  <Link
+                    href="/contact"
+                    activeClassName="is-active"
+                    legacyBehavior
+                  >
                     <a
                       className="nav-link"
                       id="cardHover"
@@ -124,7 +140,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item pl-md-3">
-                  <Link href="#0">
+                  <Link href="#0" legacyBehavior>
                     <a
                       className="nav-link nav-svg"
                       aria-label={`Turn On ${

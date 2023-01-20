@@ -6,18 +6,18 @@ import React from 'react';
 import { ServerStyleSheet } from 'styled-components';
 
 export default class MyDocument extends Document {
-  static getInitialProps({ renderPage }) {
-    const sheet = new ServerStyleSheet();
+  // static getInitialProps({ renderPage }) {
+  //   const sheet = new ServerStyleSheet();
 
-    const page = renderPage((App) => (props) =>
-      // eslint-disable-next-line react/jsx-props-no-spreading
-      sheet.collectStyles(<App {...props} />)
-    );
+  //   const page = renderPage((App) => (props) =>
+  //     // eslint-disable-next-line react/jsx-props-no-spreading
+  //     sheet.collectStyles(<App {...props} />)
+  //   );
 
-    const styleTags = sheet.getStyleElement();
+  //   const styleTags = sheet.getStyleElement();
 
-    return { ...page, styleTags };
-  }
+  //   return { ...page, styleTags };
+  // }
 
   render() {
     return (
@@ -181,3 +181,23 @@ export default class MyDocument extends Document {
     );
   }
 }
+MyDocument.getInitialProps = async (ctx) => {
+  const sheets = new ServerStyleSheet();
+  const originalRenderPage = ctx.renderPage;
+
+  ctx.renderPage = () =>
+    originalRenderPage({
+      enhanceApp: (App) => (props) => sheets.collectStyles(<App {...props} />),
+    });
+
+  const initialProps = await Document.getInitialProps(ctx);
+
+  return {
+    ...initialProps,
+    // Styles fragment is rendered after the app and page rendering finish.
+    styles: [
+      ...React.Children.toArray(initialProps.styles),
+      sheets.getStyleElement(),
+    ],
+  };
+};
