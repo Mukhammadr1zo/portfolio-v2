@@ -19,7 +19,7 @@ const PROJECTS_DATA = [
     link: 'https://shoprrr.netlify.com',
     imageUrl: 'https://i.ibb.co/T0XwFsQ/Screen-Recording-2020-05-06-at-3.gif',
     type: ['project'],
-    technologies: ['React', 'Redux Saga', 'Javascript', 'Firebase'],
+    technologies: ['React', 'Redux', 'Javascript', 'Firebase'],
   },
   // {
   //   title: 'Piggment Chrome Extension',
