@@ -13,13 +13,13 @@ const PROJECTS_DATA = [
   {
     title: 'Shoprrr',
     description: 'An E-commerce Application For Buying Cotton Products.',
-    github: 'https://github.com/adenekan41/shoprrr',
+    github: 'https://github.com/Mukhammadr1zo/shoprr',
     about:
       'Shoprrr is an e-commerce platform catered towards giving the best and fast experience for customers to buy cotton products, we call it a frictionless process from start to finish.',
     link: 'https://shoprrr.netlify.com',
     imageUrl: 'https://i.ibb.co/T0XwFsQ/Screen-Recording-2020-05-06-at-3.gif',
     type: ['project'],
-    technologies: ['React', 'Redux', 'Javascript', 'Firebase'],
+    technologies: ['React', 'Redux', 'Javascript'],
   },
   // {
   //   title: 'Piggment Chrome Extension',

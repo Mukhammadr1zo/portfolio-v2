@@ -99,7 +99,8 @@ ${(props) => (props.theme ? DarkTheme : LightTheme)}
   color: var(--light-gray);
   opacity: 1;
 }
-
+::-webkit-scrollbar{width:6px; border-left:1px solid #E6ECF8;}
+::-webkit-scrollbar-thumb{background-color:#000000; border-radius: 5px;}
 /*--------*/  
 * {
   margin: 0;

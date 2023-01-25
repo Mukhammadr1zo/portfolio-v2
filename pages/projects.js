@@ -39,26 +39,6 @@ const Projects = () => {
                 )}
               </MansoryLayout>
             </TabItems>
-            <TabItems label="Dev Tools">
-              <MansoryLayout>
-                {projectsData.map(
-                  (item, index) =>
-                    item.type.includes('tools') && (
-                      <MansoryItem key={index} index={index} item={item} />
-                    )
-                )}
-              </MansoryLayout>
-            </TabItems>
-            <TabItems label="Open Source">
-              <MansoryLayout>
-                {projectsData.map(
-                  (item, index) =>
-                    item.type.includes('open-source') && (
-                      <MansoryItem key={index} index={index} item={item} />
-                    )
-                )}
-              </MansoryLayout>
-            </TabItems>
           </Tabs>
         </PageWrapper>
       </PageSection>

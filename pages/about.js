@@ -174,54 +174,9 @@ const About = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
-                >
-                  Chill Lofi Study Beats <small>Spotify</small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DX8Uebhn9wzrS"
-                  className="float-right"
-                >
-                  View Playlist
-                </a>
-                <p>
-                  The perfect study beats, twenty four seven. with over 178
-                  SONGS
-                </p>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DWUACcBjzMiIY?si=KbZW7Cz1TpaABPXV_fH4-A"
-                >
-                  Mellow Drive <small>Spotify</small>
-                </a>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
-                  id="cardHover"
-                  href="https://open.spotify.com/playlist/37i9dQZF1DWUACcBjzMiIY?si=KbZW7Cz1TpaABPXV_fH4-A"
-                  className="float-right"
-                >
-                  View Playlist
-                </a>
-                <p>Easy listening for pleasant drive</p>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Open Link"
                   href="https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0?si=wF0gpf3RRa-2oT1GYTBQ_w"
                 >
-                  Mood Booster 🎅🏽 <small>Spotify</small>
+                  Mood Booster 🎵 <small>Spotify</small>
                 </a>
                 <a
                   target="_blank"
