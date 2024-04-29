@@ -13,7 +13,7 @@ import FooterLink from '../components/Footer';
 
 const Resume = () => {
   const resumeData =
-    'https://www.canva.com/design/DAFYLzCuHGA/5mZ09Br1_W0KmjyAO1CkKA/view?utm_content=DAFYLzCuHGA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink';
+    'https://www.canva.com/design/DAGDxTvwoUg/0DXvIjF13-8USgXIHqH0dQ/edit?utm_content=DAGDxTvwoUg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton';
 
   const previewData = `${resumeData.substr(
     0,
@@ -34,7 +34,7 @@ const Resume = () => {
               .{' '}
               <b>
                 <a
-                  href="https://drive.google.com/file/d/17ANnAEpaqB6zzxjK5NkTycMaOnk3pFRU/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1-r7H5m9QHUAcJKEe3T1AtRwx8MG_ZhS0/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Go to Resumé Page"
@@ -45,7 +45,7 @@ const Resume = () => {
               or{' '}
               <b>
                 <a
-                  href="https://drive.google.com/file/d/17ANnAEpaqB6zzxjK5NkTycMaOnk3pFRU/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1-r7H5m9QHUAcJKEe3T1AtRwx8MG_ZhS0/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Go to Resumé Page"

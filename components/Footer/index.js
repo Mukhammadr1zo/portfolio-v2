@@ -8,7 +8,7 @@ import styled from 'styled-components';
 
 /* -------------------------- Image Dependecy -------------------------- */
 
-import { IconRight, Facebook, Linkedin, Github, Instagram } from '../Icons';
+import { IconRight, Telegram, Linkedin, Github, Instagram } from '../Icons';
 
 /* ---------------------------- Style Dependency ---------------------------- */
 import { SocialMedia } from '../Layout/style';
@@ -40,15 +40,6 @@ const FooterLink = ({ children, goto, ...rest }) => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://www.facebook.com/"
-          aria-label="Go To Muhammadrizo's Facebook Page"
-          title="Facebook Page"
-        >
-          <Facebook />
-        </a>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
           href="https://www.linkedin.com/in/muhammadrizo-baxtiyorov/"
           aria-label="Go To Muhammadrizo's Linkedin Page"
           title="Linkedin Page"
@@ -67,7 +58,16 @@ const FooterLink = ({ children, goto, ...rest }) => {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="https://instagram.com/muhammadrizo_bakhtiyoroff"
+          href="https://t.me/baxtiyoroff_m"
+          aria-label="Go To Muhammadrizo's Telegram Page"
+          title="Facebook Page"
+        >
+          <Telegram />
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://instagram.com/bakhtiyoroff.m"
           aria-label="Go To Muhammadrizo's Instagram Page"
           title="Instagram Page"
         >
