@@ -45,7 +45,7 @@ const Resume = () => {
               or{' '}
               <b>
                 <a
-                  href="https://drive.google.com/file/d/1-r7H5m9QHUAcJKEe3T1AtRwx8MG_ZhS0/view?usp=sharing"
+                  href="https://drive.usercontent.google.com/u/0/uc?id=1-r7H5m9QHUAcJKEe3T1AtRwx8MG_ZhS0&export=download"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Go to Resumé Page"
